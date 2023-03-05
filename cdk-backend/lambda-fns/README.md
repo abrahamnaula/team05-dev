@@ -1,0 +1,1 @@
+In this lambda-fns directory, "npm init --y" and "npm install data-api-client uuid" were executed to install the uuid library and the data-api-client library to be used in order to interact with our database.

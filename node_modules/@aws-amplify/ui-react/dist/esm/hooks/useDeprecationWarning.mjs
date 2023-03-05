@@ -1,0 +1,1 @@
+import*as e from"react";const o=({shouldWarn:o,message:s})=>{e.useEffect((()=>{o&&("undefined"==typeof process||process&&"production"!==process.env.NODE_ENV)&&console.warn(s)}),[o,s])};export{o as useDeprecationWarning};

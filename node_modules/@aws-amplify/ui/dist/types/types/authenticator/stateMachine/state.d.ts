@@ -1,0 +1,10 @@
+import { State } from 'xstate';
+import { ResetPasswordContext } from '.';
+import { SignInContext, SignUpContext, SignOutContext, AuthActorContext, AuthContext } from './context';
+import { AuthEvent } from './event';
+export declare type SignInState = State<SignInContext, AuthEvent>;
+export declare type SignUpState = State<SignUpContext, AuthEvent>;
+export declare type SignOutState = State<SignOutContext, AuthEvent>;
+export declare type ResetPasswordState = State<ResetPasswordContext, AuthEvent>;
+export declare type AuthActorState = State<AuthActorContext, AuthEvent>;
+export declare type AuthMachineState = State<AuthContext, AuthEvent>;
